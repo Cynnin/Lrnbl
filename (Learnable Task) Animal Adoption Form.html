@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RandomHouse Business</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS stylesheet.css"/> 
+    </head>
+    <body>
+        <header>
+            <img src="THE RANDOM HOUSE LOGO.svg" alt="RandomHouse Logo" width="250" height="250">
+        </header>
+        <nav id="centrefield">
+            <a href='#'>Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Topics</a>
+            <a href="#">About</a>
+            <a href="Assignment 2-Product Landing Page.html">Shop</a>
+            <a href="#">Q&A</a>
+            <a href="#">Business</a>
+            <form>
+                <input type="text" id="search">
+                <label for="search"><button class="btn">Search</button></label>
+            </form>
+        </nav>
+<body>
+    <div id="centrefield">
+    <h1>Animal Adoption Form</h1>
+    <h5>(Because we do that now)</h5>
+    </div>
+
+    <!-- Create Form -->
+    <form id="form">
+
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+
+            <!-- Text Input -->
+            <input type="text" id="name" 
+                   placeholder="Enter your name" 
+                   name = "name" required/>
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <!-- Email Input -->
+            <input type="email" id="email" 
+                   placeholder="Enter your email" 
+                   name="email" required/>
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+
+            <!-- Text Input -->
+            <input type="text" id="age" 
+                   placeholder="Enter your age" 
+                   name="age" required/>
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which animal would you like to adopt?
+            </label>
+
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Dog">
+                    Dog
+                </option>
+                <option value="Cat">
+                    Cat
+                </option>
+                <option value="Rabbit">
+                    Rabbit
+                </option>
+                <option value="Anaconda">
+                    Anaconda
+                </option>
+                <option value="Komodo dragon">
+                    Komodo dragon
+                </option>
+                <option value="Shark">
+                    Shark
+                </option>
+                <option value="Tarantula">
+                    Tarantula
+                </option>
+                <option value="Panda">
+                    Panda
+                </option>
+                <option value="Tiger">
+                    Tiger
+                </option>
+                <option value="Cobra">
+                    Cobra
+                </option>
+                <option value="Hamster">
+                    Hamster
+                </option>
+                <option value="Piranha">
+                    Piranha
+                </option>
+                <option value="Other">
+                    Other
+                </option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>
+                How would you like to initiate the adoption process?
+            </label>
+
+            <!-- Radio Input -->
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" 
+                       name="recommed">Virtual Meeting
+                  </input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" 
+                       name="recommed">Physical Meeting
+                  </input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" 
+                       name="recommed">You decide
+                  </input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label>What do you look for in an animal?
+                <small>(Check all that apply)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Cute and cuddly
+                  </input>
+              </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Might possibly eat you
+                  </input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">As flashy as possible
+                  </input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Companion for life
+                  </input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Inspires constant nervousness
+                  </input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">Pretty to look at
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Can fit into hand
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Improbable
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">It's not even an animal
+                  </input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Illegal
+                  </input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Why do you want to adopt this animal?
+            </label>
+
+            <!-- Comment -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Delivery/Adoption instructions
+            </label>
+
+            <!-- Comment -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any ideas or suggestions?
+            </label>
+
+            <!-- Comment -->
+            <textarea name="comment" id="comment" 
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit" value="submit" class="btn">
+            Submit
+        </button>
+    </form>
+    <footer id="futfut">
+        <p id="altlink">
+            Get In Touch-> <a href="#">Ask a question</a>, <a href="#">Guest Articles</a>, <a href="#">Contact Us</a>, <a href="#">Our Services</a>
+        </p>
+        <p id="altlink"><a href="#">Content</a> </p>
+        <p id="altlink"><a href="#">Topics</a> </p>
+        <p id="altlink">
+            Follow Us On Social Media-> <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Tumblr</a>, <a href="#">Instagram</a>
+        </p>
+        <p id="altlink">
+            <a href="#">Terms&Privacy</a>
+        </p>
+        <p>
+            RandomHouse Ltd.©2024. All Rights Reserved
+        </p>
+    </footer>
+</body>
+
+</html>
